@@ -1,0 +1,42 @@
+.table-wrapper {
+  display: flex;
+  justify-content: center; 
+  height: 100vh;
+  padding: 20px; /* Optional: Add some padding around the table wrapper
+}
+
+table {
+  width: 75%; /* Keep the table width at 75% */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse; /* Optional: To avoid space between table borders */
+}
+
+th, td {
+  padding: 15px; /* Add space inside each cell for better readability */
+  text-align: left; /* Optional: Align text to the left (adjust based on your needs) */
+}
+
+th {
+  background-color: #f4f4f4; /* Optional: Give table headers a different background color */
+  font-weight: bold; /* Optional: Make header text bold */
+}
+
+td {
+  background-color: #fff; /* Optional: Give table data cells a background color */
+  border-bottom: 1px solid #ddd; /* Optional: Add a subtle border at the bottom of rows */
+} */
+
+/* Custom styles for pagination links */
+.p-paginator .p-paginator-page {
+  margin: 0 5px; /* Adds space between the page numbers */
+}
+
+.p-paginator .p-paginator-page a {
+  padding: 5px 10px; /* Adds padding to the page number link */
+  border-radius: 5px; /* Adds rounded corners */
+}
+
+.p-paginator .p-paginator-page a:hover {
+  background-color: #4A90E2; /* Hover effect with background color */
+  color: white; /* White text on hover */
+}
